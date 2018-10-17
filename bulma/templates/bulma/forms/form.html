@@ -1,14 +1,10 @@
 {% if form.non_field_errors %}
-  <div class="message is-danger">
-    <div class="message-header">
-      <button class="delete" aria-label="delete"></button>
-    </div>
-    <div class="message-body">
-      {% for non_field_error in form.non_field_errors %}
-        {{ non_field_error }}
-      {% endfor %}
-    </div>
-  </div>
+  <p class="has-text-danger">
+    {% for non_field_error in form.non_field_errors %}
+      {{ non_field_error }}
+    {% endfor %}    
+  </p>
+  <br>
 {% endif %}
 
 {% for field in form.hidden_fields %}
