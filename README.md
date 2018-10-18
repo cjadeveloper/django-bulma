@@ -1,4 +1,4 @@
-# A Bulma Theme for Django Projects
+# A Bulma Theme for Django Projects (Adaptado para Django 2.x por mi)
 
 <a href="https://github.com/timonweb/django-bulma"><img src="https://raw.githubusercontent.com/timonweb/django-bulma/master/demo/static/images/django-bulma-logo.png" alt="Django Bulma"></a>
 
